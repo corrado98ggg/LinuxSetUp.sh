@@ -39,3 +39,12 @@ apt update
 python3 -V
 apt install python3-django
 django-admin --version
+
+#installo discord 
+apt update
+apt install -y wget gdebi libatomic1
+wget -O discord.deb "https://discord.com/api/download?platform=linux&format=deb"
+gdebi discord.deb
+
+
+
